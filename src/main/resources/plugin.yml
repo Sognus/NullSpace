@@ -1,0 +1,11 @@
+name: NullSpace
+main: cz.sognus.nullspace.NullSpace
+version: ${project.version}
+api-version: "1.15"
+author: Sognus
+load: STARTUP
+loadbefore: [Multiverse-Core]
+commands:
+  nullspace:
+    description: Plugin's information
+    usage: /nullspace

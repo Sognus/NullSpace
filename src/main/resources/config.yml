@@ -1,0 +1,18 @@
+# Determines if asteroid generation is enabled
+#   TRUE [Default]
+#   Accepted Values: true, false
+generation-asteroids-enabled: true
+# Determines how many blocks apart will asteroids spawn
+#   500 [Default]
+#   Accepted Value: INTEGER
+generation-offset: 500
+# Determines Y coordination where will asteroids spawn
+#   128 [DEFAULT]
+#   Accepted Value: INTEGER
+#   Values outside range will result in random generation
+generation-height: 128
+# Determines asteroid material
+#   GLOWSTONE [Default]
+#   Accepted VALUES: Names in enum -> https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+generation-block: GLOWSTONE
+
